@@ -4,16 +4,8 @@ console.log(getName);
 
 var x = 7;
 
-// Here it behaves like a function
-// Space is also reserved in memory component as the function itself
-function getName2()
-{
-
-}
-
-// Here it behaves like a variable
-// Space is not reserved in the memory component
-// And it is undefined
+// Here we have created an arrow function
+// Here it acts like a variable
 var getName = () =>{
-    console.log("Namaste JavaScript!!!");
+    console.log("Namaste JavaScript!!");
 }
