@@ -1,9 +1,12 @@
 function x()
 {
-    var a = function y()
+    var a = 7;
+
+    function y()
     {
         console.log(a);
     }
+
     y();
 }
 x();
