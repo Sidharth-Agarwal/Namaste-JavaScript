@@ -6,7 +6,7 @@ console.log(a);
 a = 10;
 
 // this is not defined
-console.log(x);
+// console.log(x);
 
 if(a === undefined)
 {
@@ -16,3 +16,7 @@ else
 {
     console.log("a is not undefined");
 }
+
+// not a good practice
+// a = undefined;
+// console.log(a);
