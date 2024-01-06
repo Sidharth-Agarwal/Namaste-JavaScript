@@ -1,4 +1,4 @@
-var a;
+let a;
 
 console.log(a);
 
