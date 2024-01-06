@@ -1,0 +1,1 @@
+// This is nothing but the shortest program possible in JavaScript
