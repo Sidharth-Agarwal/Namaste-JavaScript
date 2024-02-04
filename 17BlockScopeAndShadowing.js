@@ -1,3 +1,4 @@
+// Shadowing behaves the same way in the case of functions
 const c = 100;
 function x()
 {

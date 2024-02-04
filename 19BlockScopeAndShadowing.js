@@ -1,3 +1,4 @@
+// This is not illegal shadowing
 let a = 20;
 
 function x()

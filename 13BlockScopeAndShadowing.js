@@ -1,3 +1,4 @@
+// Example of block scoping
 {
     var a = 10;
     let b = 20;

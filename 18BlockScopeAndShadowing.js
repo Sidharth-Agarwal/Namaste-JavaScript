@@ -1,6 +1,15 @@
 // Illegal Shadowing
-let a = 10;
+
+// This can't be done
+// let a = 10;
+
+// {
+//     var a = 20;
+// }
+
+// But this can be done
+var a = 10;
 
 {
-    var a = 20;
+    let a = 20;
 }
