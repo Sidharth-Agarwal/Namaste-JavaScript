@@ -1,12 +1,12 @@
-function x()
-{
-    var a = 7;
-
-    function y()
-    {
-        console.log(a);
+function a() {
+    var x = 7;
+    function b() {
+        console.log(x);
     }
-
-    y();
+    return b;
 }
-x();
+
+var t = a();
+console.log(t);
+//.......................................
+t();
