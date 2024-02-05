@@ -1,16 +1,13 @@
 // Example of constructor function
-function counter()
-{
+function counter(){
     var count = 0;
 
-    this.incrementCounter = function()
-    {
+    this.incrementCounter = function(){
         count++;
         console.log(count);
     }
 
-    this.decrementCounter = function()
-    {
+    this.decrementCounter = function(){
         count--;
         console.log(count);
     }

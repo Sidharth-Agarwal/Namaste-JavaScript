@@ -1,10 +1,7 @@
-function outest()
-{
+function outest(){
     var c = 20;
-    function outer(b)
-    {
-        function inner()
-        {
+    function outer(b){
+        function inner(){
             console.log()
             {
                 console.log(a,b,c);
@@ -17,5 +14,6 @@ function outest()
 }
 
 // let a = 100;
-var close = (outest())("Hellow");
-close();
+// var close = (outest())("Hellow");
+// close();
+outest()("Hello world!")()
