@@ -4,6 +4,7 @@
 
 // JavaScript is a synchoronous and single-threaded language
 
+// Example of Callback Functions
 setTimeout(function(){
     console.log("Timer")
 },5000)
@@ -16,3 +17,11 @@ function x(y) {
 x(function y(){
     console.log("y");
 })
+
+function attachEventListners(){
+    let count = 0;
+    document.getElementById("clickMe").addEventListener("click",function(){
+        console.log("Button Clicked", ++count);
+    })
+}
+attachEventListners();
