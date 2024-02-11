@@ -18,6 +18,7 @@ x(function y(){
     console.log("y");
 })
 
+// Adding Event Listeners
 function attachEventListners(){
     let count = 0;
     document.getElementById("clickMe").addEventListener("click",function(){
