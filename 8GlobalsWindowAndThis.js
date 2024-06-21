@@ -19,3 +19,4 @@ console.log(this.a)
 console.log(a);
 console.log(window);
 console.log(this === window);
+console.log(this)
