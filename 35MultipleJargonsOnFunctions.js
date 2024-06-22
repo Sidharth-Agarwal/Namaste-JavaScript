@@ -2,7 +2,7 @@
 // b();
 // The different between the two function comes in terms of hoisting
 // The "Function Statement" works just fine when hoisting is done
-// The "Function Expression" is assigned UNDEINED until the variable line is hit
+// The "Function Expression" is assigned UNDEFINED until the variable line is hit
 // The b() above will throw an error but a() will not
 
 // 1.
@@ -15,10 +15,11 @@ a();
 
 // 2.
 // Function Expression
-var b = function (){
+var b = function () {
     console.log("Function Expression Called");
 }
 b();
+// This is the way of writing a function expression
 
 // 3.
 // Function Declaration
@@ -63,6 +64,13 @@ console.log(temp(1,2));
 // First Class Function
 // The ability to use function a values, parameter, arguements and return statement is called "First Class Functions"
 // Also known as "First Class Citizens"
+var c = function(param1) {
+    return function xyz() {
+
+    }
+}
+
+console.log(b());
 
 // 8. 
 // Arrow Functions
