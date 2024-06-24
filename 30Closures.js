@@ -12,8 +12,4 @@ function outest(){
     }
     return outer;
 }
-
-// let a = 100;
-// var close = (outest())("Hellow");
-// close();
 outest()("Hello world!")()
