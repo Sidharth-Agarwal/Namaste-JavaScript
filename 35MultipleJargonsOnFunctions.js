@@ -24,7 +24,7 @@ b();
 // 3.
 // Function Declaration
 // A "Function Declaration" is just as same as the "Function Statement"
-// They both at the same thing
+// They both are the same thing
 
 // 4.
 // Anonymous Function

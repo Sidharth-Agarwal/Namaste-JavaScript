@@ -1,4 +1,4 @@
-getName();
+getName2();
 console.log(x);
 console.log(getName);
 
@@ -8,7 +8,7 @@ var x = 7;
 // Space is also reserved in memory component as the function itself
 function getName2()
 {
-
+    console.log("hello")
 }
 
 // Here it behaves like a variable

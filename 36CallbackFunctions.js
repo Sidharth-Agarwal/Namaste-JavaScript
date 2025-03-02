@@ -2,7 +2,7 @@
 // Function are first class citizen.
 // So, when functions are passed as an argument to another functions are called "CallBack Functions"
 
-// JavaScript is a synchoronous and single-threaded language
+// JavaScript is a synchoronous and single-threaded
 
 // Example of Callback Functions
 setTimeout(function(){
