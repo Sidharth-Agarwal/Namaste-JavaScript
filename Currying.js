@@ -3,4 +3,4 @@ function add (a) {
       return a + b;
     }
 } 
-add(3)(4)   
+add(3)(4)
