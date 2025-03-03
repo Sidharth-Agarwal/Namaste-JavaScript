@@ -34,11 +34,11 @@ const output4 = arr.reduce(function(acc,curr) {
 const users = [
     { firstName: "akshay", lastName: "saini", age: 26 },
     { firstName: "sidharth", lastName: "agarwal", age: 21},
-    { firstName: "veer", lastName: "singh", age: 39}
+    { firstName: "veer", lastName: "singh", age: 21}
 ]
 
 const output5 = users.map((x) => {
-    x.firstName + " " + x.lastName;
+    return x.firstName + " " + x.lastName;
 })
 
 const output6 = users.reduce((acc,curr) => {
@@ -52,7 +52,11 @@ const output6 = users.reduce((acc,curr) => {
 },{})
 
 const output7 = users.filter((x) => {
-    x.age < 30
+    return x.age < 30
 }).map((x) => {
-    x.firstName
+    return x.firstName
 })
+
+console.log(output5)
+console.log(output6)
+console.log(output7)

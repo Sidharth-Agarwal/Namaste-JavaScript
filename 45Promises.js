@@ -16,13 +16,11 @@ user.then(function(data) {
     console.log(data);
 })
 
-createOrder(card)
-.then(function(orderId){
+// Promise Chaining
+createOrder(card).then(function(orderId){
     return proceedToPayment(orderId);
-})
-.then(function(paymentInfo){
+}).then(function(paymentInfo){
     return showOrderSummger(paymentInfo);
-})
-.then(function (paymentInfo) {
+}).then(function (paymentInfo) {
     return updateWallet(paymentInfo);
 })
